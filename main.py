@@ -1,14 +1,22 @@
-#Data Types
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
 
-#String
-print("Hello"[4])
-print("123" + "456")
+####################################
+#Write your code below this line 👇
+print(type(two_digit_number))
+print(int(two_digit_number[0]) + int(two_digit_number[1]))
 
-#Integer
-#123,456,789
-#123_456_789 => same above
 
-#FloatingPointError
-3.14159
+#soulution
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
 
-#Boolean
+#Add the two digit together
+two_digit_number = second_digit + first_digit
+print(two_digit_number)
+
+
+
+
+
